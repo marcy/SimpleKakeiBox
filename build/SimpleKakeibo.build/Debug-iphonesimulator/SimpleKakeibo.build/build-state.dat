@@ -1,0 +1,775 @@
+TSimpleKakeibo
+v7
+r0
+t279553473.616844
+cCheck dependencies
+cProcessInfoPlistFile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/Info.plist SimpleKakeibo-Info.plist
+cCompileXIB /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/MainWindow.xib
+cCompileXIB /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/RootViewController.xib
+cCompileXIB /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/NewViewController.xib
+cCompileXIB /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/DateEditController.xib
+cCompileXIB /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/CategoryEditController.xib
+cCompileXIB /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/PriceEditController.xib
+cCompileXIB /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.xib
+cProcessPCH /var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch.gch SimpleKakeibo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/main.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/SimpleKakeiboAppDelegate.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/SimpleKakeiboAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/RootViewController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/CategoriesViewController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/ItemlistViewController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/NewViewController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/NewViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/DateEditController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateEditController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/CategoryEditController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoryEditController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/PriceEditController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/PriceEditController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/MyAppDataController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/DetailViewController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/NodeViewController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/NodeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/MyApplicationData.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyApplicationData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/SimpleKakeibo normal i386
+cGenerateDSYMFile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app.dSYM /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/SimpleKakeibo
+cTouch /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004AE3C67700000000000000EE
+t1256441463
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026EE30
+t1253951571
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027E880
+t1253951826
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE200000000016721E0
+t1253961442
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/Availability.h
+c000000004ABDCA4700000000000019F9
+t1253952071
+s6649
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/CategoryEditController.xib
+c000000004AEE8EDE0000000000004F14
+t1257148126
+s20244
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.h
+c000000004AF82BDD00000000000001C9
+t1257778141
+s457
+i"NodeViewController.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m
+c000000004AF82E5500000000000014C6
+t1257778773
+s5318
+i"NodeViewController.h"
+i"CategoriesViewController.h"
+i"ItemlistViewController.h"
+i"MyAppDataController.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoryEditController.h
+c000000004AF8267B00000000000001A3
+t1257776763
+s419
+i<UIKit/UIKit.h>
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoryEditController.m
+c000000004AF826AD0000000000001A93
+t1257776813
+s6803
+i"CategoryEditController.h"
+i"NewViewController.h"
+i"MyAppDataController.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateController.h
+c000000004AEEBF3400000000000001B0
+t1257160500
+s432
+i<Foundation/Foundation.h>
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateController.m
+c000000004AEEBF9C00000000000007A8
+t1257160604
+s1960
+i"DateController.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateEditController.h
+c000000004AF8273100000000000001D1
+t1257776945
+s465
+i<UIKit/UIKit.h>
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateEditController.m
+c000000004AF8273D0000000000000A45
+t1257776957
+s2629
+i"DateEditController.h"
+i"NewViewController.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.h
+c000000004AF8277A000000000000012B
+t1257777018
+s299
+i<UIKit/UIKit.h>
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m
+c000000004AF8279A000000000000195E
+t1257777050
+s6494
+i"DetailViewController.h"
+i"NewViewController.h"
+i"MyAppDataController.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.xib
+c000000004AEFCA7B0000000000004236
+t1257228923
+s16950
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.h
+c000000004AF8284F0000000000000267
+t1257777231
+s615
+i"NodeViewController.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m
+c000000004AF82C11000000000000173D
+t1257778193
+s5949
+i"ItemlistViewController.h"
+i"DetailViewController.h"
+i"MyAppDataController.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MonthView.h
+c000000004AED08A0000000000000010C
+t1257048224
+s268
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MonthView.m
+c000000004AED087300000000000005D1
+t1257048179
+s1489
+i"MonthView.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MonthViewController.h
+c000000004AEFD03E0000000000000181
+t1257230398
+s385
+i"NodeViewController.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MonthViewController.m
+c000000004AF669130000000000001228
+t1257662739
+s4648
+i"MonthViewController.h"
+i"CategoriesViewController.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.h
+c000000004AF82E55000000000000047A
+t1257778773
+s1146
+i<UIKit/UIKit.h>
+i"MyApplicationData.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.m
+c000000004AF96C69000000000000161B
+t1257860201
+s5659
+i"MyAppDataController.h"
+i"MyApplicationData.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyApplicationData.h
+c000000004AF835CB00000000000001DD
+t1257780683
+s477
+i<UIKit/UIKit.h>
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyApplicationData.m
+c000000004AF96D1F0000000000000380
+t1257860383
+s896
+i"MyApplicationData.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/NewViewController.h
+c000000004AF8296D000000000000027F
+t1257777517
+s639
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/NewViewController.m
+c000000004AF829A500000000000020E7
+t1257777573
+s8423
+i"NewViewController.h"
+i"DateEditController.h"
+i"CategoryEditController.h"
+i"PriceEditController.h"
+i"MyAppDataController.h"
+i"RootViewController.h"
+i"MyApplicationData.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/NodeViewController.h
+c000000004AF6B39F00000000000000EF
+t1257681823
+s239
+i<UIKit/UIKit.h>
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/NodeViewController.m
+c000000004AF829C900000000000013F9
+t1257777609
+s5113
+i"NodeViewController.h"
+i"NewViewController.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/PriceEditController.h
+c000000004AF82C250000000000000312
+t1257778213
+s786
+i<UIKit/UIKit.h>
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/PriceEditController.m
+c000000004AF82C710000000000000E5D
+t1257778289
+s3677
+i"PriceEditController.h"
+i"NewViewController.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/RootViewController.h
+c000000004AF82B9600000000000001B9
+t1257778070
+s441
+i"MyAppDataController.h"
+i"NodeViewController.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/RootViewController.m
+c000000004AF82A80000000000000138E
+t1257777792
+s5006
+i"MyAppDataController.h"
+i"RootViewController.h"
+i"CategoriesViewController.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/SimpleKakeiboAppDelegate.h
+c000000004AF82AD100000000000001E7
+t1257777873
+s487
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/SimpleKakeiboAppDelegate.m
+c000000004AF82AC900000000000006EE
+t1257777865
+s1774
+i"SimpleKakeiboAppDelegate.h"
+i"RootViewController.h"
+i"NewViewController.h"
+i"MyAppDataController.h"
+i"MyApplicationData.h"
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/DateEditController.xib
+c000000004AEE3448000000000000539F
+t1257124936
+s21407
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/MainWindow.xib
+c000000004AEFD00A0000000000005C52
+t1257230346
+s23634
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/NewViewController.xib
+c000000004AED3316000000000000466D
+t1257059094
+s18029
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/PriceEditController.xib
+c000000004AF6834E000000000000A03D
+t1257669454
+s41021
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/RootViewController.xib
+c000000004AF6338A0000000000004D11
+t1257649034
+s19729
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/SimpleKakeibo_Prefix.pch
+c000000004AED01BF000000000000014C
+t1257046463
+s332
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app
+t1257860673
+s408
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app.dSYM
+t1257860673
+s102
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/CategoryEditController.nib
+t1257782736
+s2101
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/DateEditController.nib
+t1257782735
+s2184
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/DetailViewController.nib
+t1257782736
+s1355
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/Info.plist
+t1257782733
+s588
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/MainWindow.nib
+t1257782734
+s2018
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/NewViewController.nib
+t1257782735
+s1595
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/PkgInfo
+t1257782733
+s8
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/PriceEditController.nib
+t1257782736
+s6674
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/RootViewController.nib
+t1257782734
+s2030
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/SimpleKakeibo
+t1257860673
+s80324
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/CategoriesViewController.o
+t1257782738
+s39660
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/CategoryEditController.o
+t1257782739
+s43232
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/DateController.o
+t1257160606
+s11332
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/DateEditController.o
+t1257782739
+s37144
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/DetailViewController.o
+t1257782739
+s41608
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/ItemlistViewController.o
+t1257782738
+s44936
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/MonthView.o
+t2
+s0
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/MonthViewController.o
+t1257776508
+s36508
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/MyAppDataController.o
+t1257860201
+s27672
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/MyApplicationData.o
+t1257860673
+s11496
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/NewViewController.o
+t1257782738
+s48924
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/NodeViewController.o
+t1257782739
+s36132
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/PriceEditController.o
+t1257782739
+s41756
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/RootViewController.o
+t1257782738
+s39220
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/SimpleKakeibo.LinkFileList
+c000000004AF83DCD0000000000000801
+t1257782733
+s2049
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/SimpleKakeiboAppDelegate.o
+t1257782738
+s43176
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/main.o
+t1257782738
+s5976
+
+N/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/main.m
+c000000004AED01BF000000000000016B
+t1257046463
+s363
+i<UIKit/UIKit.h>
+
+N/var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch.gch
+t1257782738
+s8753336
+
+NSimpleKakeibo-Info.plist
+c000000004AED01BF000000000000038D
+t1257046463
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies279553473#279553473#0(0"0(0#1#0"2569145664#0"0#
+
+CCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/CategoriesViewController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279475538.603205
+e279475538.754882
+r1
+xCompileC
+xbuild/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/CategoriesViewController.o
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m: In function '-[CategoriesViewController viewWillAppear:]':
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m:32: warning: 'UIView' may not respond to '-reloadData'
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m:32: warning: (Messages without a matching method signature
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m:32: warning: will be assumed to return 'id' and accept
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m:32: warning: '...' as arguments.)
+lSLF07#2@90"Compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m279475538#279475538#0(678"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m: In function '-[CategoriesViewController viewWillAppear:]':/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m:32: warning: 'UIView' may not respond to '-reloadData'/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m:32: warning: (Messages without a matching method signature/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m:32: warning: will be assumed to return 'id' and accept/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m:32: warning: '...' as arguments.)2(22@41"'UIView' may not respond to '-reloadData'279475538#143#138#0(6@82"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m279471573#32#0#32#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)279475538#281#142#0(6@82"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m279471573#32#0#32#0#0"0(0#0#82"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m2569145664#2126"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-generated-files.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-own-target-headers.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-all-target-headers.hmap -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-project-headers.hmap -F/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/include -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources/i386 -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources -include /var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch -c /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoriesViewController.m -o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/CategoriesViewController.o0#
+
+CCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/CategoryEditController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoryEditController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279475538.973709
+e279475539.178530
+r1
+xCompileC
+xbuild/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/CategoryEditController.o
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoryEditController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoryEditController.m279475538#279475539#0(0"0(0#0#80"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoryEditController.m2569145664#2122"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-generated-files.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-own-target-headers.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-all-target-headers.hmap -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-project-headers.hmap -F/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/include -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources/i386 -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources -include /var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch -c /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/CategoryEditController.m -o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/CategoryEditController.o0#
+
+CCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/DateController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s278853405.815622
+e278853406.121997
+r1
+xCompileC
+xbuild/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/DateController.o
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateController.m:82: warning: incomplete implementation of class 'DateController'
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateController.m:82: warning: method definition for '-addData:category:data:' not found
+lSLF07#2@80"Compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateController.m278853405#278853406#0(282"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateController.m:82: warning: incomplete implementation of class 'DateController'/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateController.m:82: warning: method definition for '-addData:category:data:' not found2(22@51"Incomplete implementation of class 'DateController'278853406#0#138#0(6@72"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateController.m278853404#82#0#82#0#38"incomplete implementation of class '*'0(22@57"Method definition for '-addData:category:data:' not found278853406#138#144#0(6@72"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateController.m278853404#82#0#82#0#35"method definition for '*' not found0(0#0#72"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateController.m2569145664#2106"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-generated-files.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-own-target-headers.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-all-target-headers.hmap -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-project-headers.hmap -F/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/include -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources/i386 -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources -include /var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch -c /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateController.m -o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/DateController.o0#
+
+CCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/DateEditController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateEditController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279475538.924794
+e279475539.120022
+r1
+xCompileC
+xbuild/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/DateEditController.o
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateEditController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateEditController.m279475538#279475539#0(0"0(0#0#76"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateEditController.m2569145664#2114"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-generated-files.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-own-target-headers.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-all-target-headers.hmap -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-project-headers.hmap -F/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/include -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources/i386 -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources -include /var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch -c /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DateEditController.m -o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/DateEditController.o0#
+
+CCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/DetailViewController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279475539.326164
+e279475539.590129
+r1
+xCompileC
+xbuild/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/DetailViewController.o
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m: In function '-[DetailViewController viewWillAppear:]':
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m:66: warning: 'UIView' may not respond to '-reloadData'
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m:66: warning: (Messages without a matching method signature
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m:66: warning: will be assumed to return 'id' and accept
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m:66: warning: '...' as arguments.)
+lSLF07#2@86"Compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m279475539#279475539#0(654"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m: In function '-[DetailViewController viewWillAppear:]':/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m:66: warning: 'UIView' may not respond to '-reloadData'/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m:66: warning: (Messages without a matching method signature/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m:66: warning: will be assumed to return 'id' and accept/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m:66: warning: '...' as arguments.)2(22@41"'UIView' may not respond to '-reloadData'279475539#135#134#0(6@78"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m279469850#66#0#66#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)279475539#269#138#0(6@78"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m279469850#66#0#66#0#0"0(0#0#78"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m2569145664#2118"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-generated-files.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-own-target-headers.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-all-target-headers.hmap -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-project-headers.hmap -F/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/include -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources/i386 -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources -include /var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch -c /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.m -o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/DetailViewController.o0#
+
+CCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/ItemlistViewController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279475538.664333
+e279475538.924652
+r1
+xCompileC
+xbuild/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/ItemlistViewController.o
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m: In function '-[ItemlistViewController viewWillAppear:]':
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m:45: warning: 'UIView' may not respond to '-reloadData'
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m:45: warning: (Messages without a matching method signature
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m:45: warning: will be assumed to return 'id' and accept
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m:45: warning: '...' as arguments.)
+lSLF07#2@88"Compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m279475538#279475538#0(666"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m: In function '-[ItemlistViewController viewWillAppear:]':/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m:45: warning: 'UIView' may not respond to '-reloadData'/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m:45: warning: (Messages without a matching method signature/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m:45: warning: will be assumed to return 'id' and accept/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m:45: warning: '...' as arguments.)2(22@41"'UIView' may not respond to '-reloadData'279475538#139#136#0(6@80"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m279470993#45#0#45#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)279475538#275#140#0(6@80"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m279470993#45#0#45#0#0"0(0#0#80"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m2569145664#2122"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-generated-files.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-own-target-headers.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-all-target-headers.hmap -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-project-headers.hmap -F/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/include -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources/i386 -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources -include /var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch -c /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/ItemlistViewController.m -o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/ItemlistViewController.o0#
+
+CCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/MonthView.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MonthView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/MonthViewController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MonthViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279469306.770338
+e279469308.935675
+r1
+xCompileC
+xbuild/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/MonthViewController.o
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MonthViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MonthViewController.m279469306#279469308#0(0"0(0#0#77"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MonthViewController.m2569145664#2116"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-generated-files.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-own-target-headers.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-all-target-headers.hmap -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-project-headers.hmap -F/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/include -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources/i386 -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources -include /var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch -c /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MonthViewController.m -o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/MonthViewController.o0#
+
+CCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/MyAppDataController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279553001.376423
+e279553001.640172
+r1
+xCompileC
+xbuild/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/MyAppDataController.o
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.m: In function '-[MyAppDataController saveData]':
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.m:118: warning: incompatible Objective-C types 'struct NSData *', expected 'struct NSMutableData *' when passing argument 1 of 'initForWritingWithMutableData:' from distinct Objective-C type
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.m: In function '-[MyAppDataController amountYear:Month:]':
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.m:148: warning: conflicting types for '-(NSInteger)amountYear:(NSInteger)searchYear Month:(NSInteger)searchMonth'
+o/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.h:29: warning: previous declaration of '-(NSString *)amountYear:(NSInteger)searchYear Month:(NSInteger)searchMonth'
+lSLF07#2@85"Compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.m279553001#279553001#0(910"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.m: In function '-[MyAppDataController saveData]':/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.m:118: warning: incompatible Objective-C types 'struct NSData *', expected 'struct NSMutableData *' when passing argument 1 of 'initForWritingWithMutableData:' from distinct Objective-C type/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.m: In function '-[MyAppDataController amountYear:Month:]':/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.m:148: warning: conflicting types for '-(NSInteger)amountYear:(NSInteger)searchYear Month:(NSInteger)searchMonth'/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.h:29: warning: previous declaration of '-(NSString *)amountYear:(NSInteger)searchYear Month:(NSInteger)searchMonth'3(22@174"Incompatible Objective-C types 'struct NSData *', expected 'struct NSMutableData *' when passing argument 1 of 'initForWritingWithMutableData:' from distinct Objective-C type279553001#126#267#0(6@77"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.m279553001#118#0#118#0#0"0(22@97"Conflicting types for '-(NSInteger)amountYear:(NSInteger)searchYear Month:(NSInteger)searchMonth'279553001#528#190#0(6@77"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.m279553001#148#0#148#0#25"conflicting types for '*'0(22@100"Previous declaration of '-(NSString *)amountYear:(NSInteger)searchYear Month:(NSInteger)searchMonth'279553001#718#192#0(6@77"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.h279471573#29#0#29#0#0"0(0#0#77"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.m2569145664#2116"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-generated-files.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-own-target-headers.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-all-target-headers.hmap -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-project-headers.hmap -F/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/include -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources/i386 -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources -include /var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch -c /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyAppDataController.m -o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/MyAppDataController.o0#
+
+CCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/MyApplicationData.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyApplicationData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279553473.346465
+e279553473.487417
+r1
+xCompileC
+xbuild/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/MyApplicationData.o
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyApplicationData.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyApplicationData.m279553473#279553473#0(0"0(0#0#75"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyApplicationData.m2569145664#2112"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-generated-files.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-own-target-headers.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-all-target-headers.hmap -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-project-headers.hmap -F/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/include -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources/i386 -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources -include /var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch -c /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/MyApplicationData.m -o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/MyApplicationData.o0#
+
+CCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/NewViewController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/NewViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279475538.755113
+e279475538.973567
+r1
+xCompileC
+xbuild/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/NewViewController.o
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/NewViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/NewViewController.m279475538#279475539#0(0"0(0#0#75"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/NewViewController.m2569145664#2112"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-generated-files.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-own-target-headers.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-all-target-headers.hmap -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-project-headers.hmap -F/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/include -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources/i386 -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources -include /var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch -c /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/NewViewController.m -o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/NewViewController.o0#
+
+CCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/NodeViewController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/NodeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279475539.402568
+e279475539.600587
+r1
+xCompileC
+xbuild/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/NodeViewController.o
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/NodeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/NodeViewController.m279475539#279475539#0(0"0(0#0#76"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/NodeViewController.m2569145664#2114"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-generated-files.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-own-target-headers.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-all-target-headers.hmap -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-project-headers.hmap -F/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/include -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources/i386 -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources -include /var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch -c /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/NodeViewController.m -o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/NodeViewController.o0#
+
+CCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/PriceEditController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/PriceEditController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279475539.120230
+e279475539.325932
+r1
+xCompileC
+xbuild/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/PriceEditController.o
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/PriceEditController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/PriceEditController.m279475539#279475539#0(0"0(0#0#77"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/PriceEditController.m2569145664#2116"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-generated-files.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-own-target-headers.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-all-target-headers.hmap -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-project-headers.hmap -F/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/include -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources/i386 -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources -include /var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch -c /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/PriceEditController.m -o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/PriceEditController.o0#
+
+CCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/RootViewController.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279475538.483827
+e279475538.664146
+r1
+xCompileC
+xbuild/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/RootViewController.o
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/RootViewController.m279475538#279475538#0(0"0(0#0#76"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/RootViewController.m2569145664#2114"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-generated-files.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-own-target-headers.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-all-target-headers.hmap -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-project-headers.hmap -F/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/include -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources/i386 -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources -include /var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch -c /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/RootViewController.m -o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/SimpleKakeiboAppDelegate.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/SimpleKakeiboAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279475538.319544
+e279475538.603039
+r1
+xCompileC
+xbuild/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/SimpleKakeiboAppDelegate.o
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/SimpleKakeiboAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/SimpleKakeiboAppDelegate.m279475538#279475538#0(0"0(0#0#82"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/SimpleKakeiboAppDelegate.m2569145664#2126"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-generated-files.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-own-target-headers.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-all-target-headers.hmap -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-project-headers.hmap -F/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/include -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources/i386 -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources -include /var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch -c /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/SimpleKakeiboAppDelegate.m -o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/SimpleKakeiboAppDelegate.o0#
+
+CCompileC build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/main.o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279475538.317898
+e279475538.483692
+r1
+xCompileC
+xbuild/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/main.o
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/main.m279475538#279475538#0(0"0(0#0#54"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/main.m2569145664#2078"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-generated-files.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-own-target-headers.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-all-target-headers.hmap -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-project-headers.hmap -F/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/include -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources/i386 -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources -include /var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch -c /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/main.m -o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/CategoryEditController.xib
+s279475535.617658
+e279475536.345435
+r1
+xCompileXIB
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/CategoryEditController.xib
+lSLF07#2@37"CompileXIB CategoryEditController.xib279475535#279475536#0(0"0(0#0#74"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/CategoryEditController.xib2569145664#539"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/CategoryEditController.nib /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/CategoryEditController.xib0#
+
+CCompileXIB /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.xib
+s279475536.347364
+e279475536.901332
+r1
+xCompileXIB
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.xib
+lSLF07#2@43"CompileXIB Classes/DetailViewController.xib279475536#279475536#0(0"0(0#0#80"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.xib2569145664#543"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/DetailViewController.nib /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/Classes/DetailViewController.xib0#
+
+CCompileXIB /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/DateEditController.xib
+s279475534.736693
+e279475535.887358
+r1
+xCompileXIB
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/DateEditController.xib
+lSLF07#2@33"CompileXIB DateEditController.xib279475534#279475535#0(0"0(0#0#70"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/DateEditController.xib2569145664#531"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/DateEditController.nib /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/DateEditController.xib0#
+
+CCompileXIB /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/MainWindow.xib
+s279475533.248709
+e279475534.659960
+r1
+xCompileXIB
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib279475533#279475534#0(0"0(0#0#62"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/MainWindow.xib2569145664#515"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/MainWindow.nib /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/MainWindow.xib0#
+
+CCompileXIB /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/NewViewController.xib
+s279475534.660091
+e279475535.617532
+r1
+xCompileXIB
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/NewViewController.xib
+lSLF07#2@32"CompileXIB NewViewController.xib279475534#279475535#0(0"0(0#0#69"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/NewViewController.xib2569145664#529"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/NewViewController.nib /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/NewViewController.xib0#
+
+CCompileXIB /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/PriceEditController.xib
+s279475535.887505
+e279475536.997957
+r1
+xCompileXIB
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/PriceEditController.xib
+lSLF07#2@34"CompileXIB PriceEditController.xib279475535#279475536#0(0"0(0#0#71"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/PriceEditController.xib2569145664#533"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/PriceEditController.nib /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/PriceEditController.xib0#
+
+CCompileXIB /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/RootViewController.xib
+s279475533.255175
+e279475534.736455
+r1
+xCompileXIB
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib279475533#279475534#0(0"0(0#0#70"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/RootViewController.xib2569145664#531"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/RootViewController.nib /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/RootViewController.xib0#
+
+CGenerateDSYMFile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app.dSYM /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/SimpleKakeibo
+s279553473.544408
+e279553473.611412
+r1
+xGenerateDSYMFile
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app.dSYM
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/SimpleKakeibo
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/SimpleKakeibo.app.dSYM build/Debug-iphonesimulator/SimpleKakeibo.app/SimpleKakeibo279553473#279553473#0(0"0(0#0#107"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/SimpleKakeibo2569145664#428"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/SimpleKakeibo -o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app.dSYM0#
+
+CLd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/SimpleKakeibo normal i386
+s279553473.487685
+e279553473.544251
+r1
+xLd
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/SimpleKakeibo
+xnormal
+xi386
+lSLF07#2@112"Link /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/SimpleKakeibo279553473#279553473#0(0"0(0#0#0"2569145664#939"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator -F/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator -filelist /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/Objects-normal/i386/SimpleKakeibo.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/SimpleKakeibo0#
+
+CProcessInfoPlistFile /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/Info.plist SimpleKakeibo-Info.plist
+s279475533.233300
+e279475533.248286
+r1
+xProcessInfoPlistFile
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/Info.plist
+xSimpleKakeibo-Info.plist
+lSLF07#2@32"Process SimpleKakeibo-Info.plist279475533#279475533#0(0"0(0#0#72"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/SimpleKakeibo-Info.plist2569145664#524"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SimpleKakeibo-Info.plist -genpkginfo /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app/Info.plist0#
+
+CProcessPCH /var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch.gch SimpleKakeibo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s279475536.998135
+e279475538.317597
+r1
+xProcessPCH
+x/var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch.gch
+xSimpleKakeibo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile SimpleKakeibo_Prefix.pch279475536#279475538#0(0"0(0#0#72"/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/SimpleKakeibo_Prefix.pch2569145664#1955"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-generated-files.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-own-target-headers.hmap -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-all-target-headers.hmap -iquote /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/SimpleKakeibo-project-headers.hmap -F/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/include -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources/i386 -I/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/SimpleKakeibo.build/Debug-iphonesimulator/SimpleKakeibo.build/DerivedSources -c /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/SimpleKakeibo_Prefix.pch -o /var/folders/iC/iCHAa-fEFWCDyvuSm2ph9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleKakeibo_Prefix-byxkmdfaolgsgwfodadfvvcxvqqk/SimpleKakeibo_Prefix.pch.gch0#
+
+CTouch /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app
+s279553473.611528
+e279553473.616778
+r1
+xTouch
+x/Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app
+lSLF07#2@99"Touch /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app279553473#279553473#0(0"0(0#0#0"2569145664#302"    cd /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/masashi/Dropbox/iphone_dev/SimpleKakeibo/build/Debug-iphonesimulator/SimpleKakeibo.app0#
+
