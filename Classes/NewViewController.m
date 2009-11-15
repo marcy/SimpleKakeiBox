@@ -80,19 +80,27 @@
 
 
 -(void)deleteItem:(id)sender{
-  if (price == nil) {
-    [self.navigationController popViewControllerAnimated:YES];
+  UIActionSheet *sheet;
+  sheet = [[[UIActionSheet alloc]
+            initWithTitle: nil
+            delegate: self 
+            cancelButtonTitle: NSLocalizedString(@"Cancel", nil) 
+            destructiveButtonTitle: NSLocalizedString(@"OK", nil) 
+            otherButtonTitles:nil]
+           autorelease];
+  [sheet showInView: self.view];
+}
+
+
+- (void)actionSheet:(UIActionSheet *)sheet
+        didDismissWithButtonIndex:(NSInteger)index {
+  if (index == 0) {
+    [[MyAppDataController instance] deleteAppDataItemId:identifier];
+    [self.navigationController popToViewController:[[self.navigationController viewControllers]objectAtIndex:1] animated:YES];
+  }else {
     return;
   }
-  if (category == nil) {
-    category = @"";
-  }
 
-  if((isNew != nil && !isNew) || !isNew){
-    //[[MyAppDataController instance] editAppDataItemId:identifier itemPrice:@"0" itemCategory:category itemDate:date];
-    [[MyAppDataController instance] deleteAppDataItemId:identifier];
-  }
-  [self.navigationController popViewControllerAnimated:YES];
 }
 
 

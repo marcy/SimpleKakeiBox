@@ -63,7 +63,7 @@ static id _instance = nil;
 -(void)loadData{
   NSData* data = [[NSMutableData alloc]initWithContentsOfFile:[self dataFilePath]];
   NSKeyedUnarchiver* unarchiver = [[NSKeyedUnarchiver alloc]initForReadingWithData:data];
-  appdata = [unarchiver decodeObjectForKey:DATAKEY];
+  appdata = [[unarchiver decodeObjectForKey:DATAKEY] retain];
   [unarchiver finishDecoding];
   [unarchiver release];
   [data release];
@@ -97,11 +97,10 @@ static id _instance = nil;
 }
 
 -(void)editAppDataItemId:(NSInteger)identifier itemPrice:(NSString*)price itemCategory:(NSString*)category itemDate:(NSDate*)date{
-  NSInteger index = [appdata.categories indexOfObjectIdenticalTo:category];
-  if(index == -1 || index > [appdata.categories count]){        
-    [appdata.categories addObject:category];
-    index = [appdata.categories count];
-  }
+  [appdata.categories addObject:category];
+  NSArray* arr = [[NSSet setWithArray:[NSArray arrayWithArray:appdata.categories]] allObjects];
+  appdata.categories = [NSMutableArray arrayWithArray:arr];
+  
   NSMutableArray* ary = [[NSMutableArray alloc] init];
   [ary addObject:price];
   [ary addObject:category];

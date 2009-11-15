@@ -6,10 +6,10 @@
 //  Copyright 2009 __MyCompanyName__. All rights reserved.
 //
 
-#define ENABLE_ITEM_DELETE false;
+#define ENABLE_ITEM_DELETE true;
 
 
-@interface NewViewController : UITableViewController {
+@interface NewViewController : UITableViewController <UIActionSheetDelegate> {
   NSMutableArray* names;
   NSString* price;
   NSDate* date;
