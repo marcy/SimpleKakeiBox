@@ -8,6 +8,7 @@
 
 #import "MyAppDataController.h"
 #import "MyApplicationData.h"
+#import "RootViewController.h"
 
 @implementation MyAppDataController
 
@@ -76,11 +77,22 @@ static id _instance = nil;
   if (!appdata.items) {
     appdata.items = [[NSMutableArray alloc]init];
   }
-  NSLog(@"%@", appdata.items);
-  NSLog(@"%@", appdata.categories);
+}
+
+-(int)checkYear:(NSDate*)date{
+  NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc] init] autorelease];
+  [dateFormatter setDateFormat:@"yyyy"];
+  int year = [[dateFormatter stringFromDate:date] intValue];  
+  int start_year = START_YEAR;
+  if (year < start_year) {
+    return -1;
+  }else {
+    return 1;
+  }
 }
 
 -(void)addAppDataItemPrice:(NSString*)price itemCategory:(NSString*)category itemDate:(NSDate*)date{
+  if([self checkYear:date] == -1) return;
   NSInteger index = -1;
   if ([appdata.categories count] != 0) {
     index = [appdata.categories indexOfObject:category];
@@ -97,6 +109,7 @@ static id _instance = nil;
 }
 
 -(void)editAppDataItemId:(NSInteger)identifier itemPrice:(NSString*)price itemCategory:(NSString*)category itemDate:(NSDate*)date{
+  if([self checkYear:date] == -1) return;
   [appdata.categories addObject:category];
   NSArray* arr = [[NSSet setWithArray:[NSArray arrayWithArray:appdata.categories]] allObjects];
   appdata.categories = [NSMutableArray arrayWithArray:arr];
@@ -112,8 +125,15 @@ static id _instance = nil;
   [appdata.items removeObjectAtIndex:identifier];
 }
 
+static int compareInfo(id aInfo1, id aInfo2, void *context){
+  NSDate* info1 = [aInfo1 objectAtIndex:2];
+  NSDate* info2 = [aInfo2 objectAtIndex:2];
+  return -1 * [info1 compare:info2];
+}
+
 -(void)saveData{
   NSData* data = [[NSMutableData alloc] init];
+  [appdata.items sortUsingFunction:compareInfo context:NULL];
   NSKeyedArchiver* archiver = [[NSKeyedArchiver alloc] initForWritingWithMutableData:data];
   [archiver encodeObject:appdata forKey:DATAKEY];
   [archiver finishEncoding];
@@ -131,6 +151,8 @@ static id _instance = nil;
 -(NSMutableArray*)categories{
   return appdata.categories;
 }
+
+
 
 -(NSString*)allAmount{
   NSInteger amount = 0;
@@ -158,12 +180,13 @@ static id _instance = nil;
 }
 
 -(NSMutableArray*)searchByCategoryYear:(NSInteger)searchYear Month:(NSInteger)searchMonth Category:(NSString*)searchCategory{
-  NSMutableArray* result = [self itemsYear:searchYear Month:searchMonth];
+  NSMutableArray* tmp_items = [self itemsYear:searchYear Month:searchMonth];
+  NSMutableArray* result = [[NSMutableArray alloc] init];
   int i;
-  for (i=0; i<[result count]; i++) {
-    NSString* category = [[[result objectAtIndex:i] objectAtIndex:1] objectAtIndex:1];
-    if (![searchCategory isEqualToString:category]) {
-      [result removeObjectAtIndex:i];
+  for (i=0; i<[tmp_items count]; i++) {
+    NSString* category = [[[tmp_items objectAtIndex:i] objectAtIndex:1] objectAtIndex:1];
+    if ([searchCategory isEqualToString:category]) {
+      [result addObject:[tmp_items objectAtIndex:i]];
     }
   }
   return result;

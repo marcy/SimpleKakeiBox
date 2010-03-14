@@ -30,7 +30,9 @@
 -(NSMutableArray*)itemsYear:(NSInteger)searchYear Month:(NSInteger)searchMonth;
 -(NSMutableArray*)searchByCategoryYear:(NSInteger)searchYear Month:(NSInteger)searchMonth Category:(NSString *)searchCategory;
 -(NSMutableArray*)getByIdentifier:(NSInteger)identifier;
+-(int)checkYear:(NSDate *)date;
 
 +(id)instance;
+
 
 @end

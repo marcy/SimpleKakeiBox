@@ -23,6 +23,7 @@
 		695C3007109DAE85006CF7AF /* DateEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C3006109DAE85006CF7AF /* DateEditController.m */; };
 		6969869110A052D60089CBA0 /* MyApplicationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6969869010A052D60089CBA0 /* MyApplicationData.m */; };
 		6980BB71109ECDD70096E793 /* MyAppDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6980BB70109ECDD70096E793 /* MyAppDataController.m */; };
+		69A04047113FFCC900537EC8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A04046113FFCC900537EC8 /* icon.png */; };
 		69F4E12B10A000880069A089 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F4E12910A000870069A089 /* DetailViewController.m */; };
 		69F4E12C10A000880069A089 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F4E12A10A000870069A089 /* DetailViewController.xib */; };
 		69F4E16810A0060C0069A089 /* NodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F4E16710A0060C0069A089 /* NodeViewController.m */; };
@@ -59,6 +60,7 @@
 		6969869010A052D60089CBA0 /* MyApplicationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyApplicationData.m; sourceTree = "<group>"; };
 		6980BB6F109ECDD70096E793 /* MyAppDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAppDataController.h; sourceTree = "<group>"; };
 		6980BB70109ECDD70096E793 /* MyAppDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAppDataController.m; sourceTree = "<group>"; };
+		69A04046113FFCC900537EC8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		69F4E12810A000870069A089 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		69F4E12910A000870069A089 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		69F4E12A10A000870069A089 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DetailViewController.xib; path = Classes/DetailViewController.xib; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				69A04046113FFCC900537EC8 /* icon.png */,
 				69F4E12A10A000870069A089 /* DetailViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* SimpleKakeibo-Info.plist */,
@@ -175,9 +178,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* SimpleKakeibo */ = {
+		1D6058900D05DD3D006BFB54 /* iSKakeibox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SimpleKakeibo" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iSKakeibox" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -187,7 +190,7 @@
 			);
 			dependencies = (
 			);
-			name = SimpleKakeibo;
+			name = iSKakeibox;
 			productName = SimpleKakeibo;
 			productReference = 1D6058910D05DD3D006BFB54 /* SimpleKakeibo.app */;
 			productType = "com.apple.product-type.application";
@@ -211,7 +214,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* SimpleKakeibo */,
+				1D6058900D05DD3D006BFB54 /* iSKakeibox */,
 			);
 		};
 /* End PBXProject section */
@@ -228,6 +231,7 @@
 				69FE051B109E6C1300D4DD4F /* CategoryEditController.xib in Resources */,
 				69FE05D7109E8A9E00D4DD4F /* PriceEditController.xib in Resources */,
 				69F4E12C10A000880069A089 /* DetailViewController.xib in Resources */,
+				69A04047113FFCC900537EC8 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +271,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SimpleKakeibo_Prefix.pch;
 				INFOPLIST_FILE = "SimpleKakeibo-Info.plist";
-				PRODUCT_NAME = SimpleKakeibo;
+				PRODUCT_NAME = iSKakeibox;
 			};
 			name = Debug;
 		};
@@ -283,15 +287,42 @@
 			};
 			name = Release;
 		};
-		C01FCF4F08A954540054247B /* Debug */ = {
+		690966221141E9B700D0A917 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Masashi Oyamada";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0DFD1AFA-F0B2-4711-A51D-E3BA2C9D3F75";
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Distribution;
+		};
+		690966231141E9B700D0A917 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimpleKakeibo_Prefix.pch;
+				INFOPLIST_FILE = "SimpleKakeibo-Info.plist";
+				PRODUCT_NAME = iSKakeibox;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Masashi Oyamada (H3QK8D467B)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7C0FD9BC-EEA5-4342-BA7D-C081DD4A6532";
 				SDKROOT = iphoneos3.1.2;
 			};
 			name = Debug;
@@ -312,11 +343,12 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SimpleKakeibo" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iSKakeibox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+				690966231141E9B700D0A917 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -326,6 +358,7 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+				690966221141E9B700D0A917 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

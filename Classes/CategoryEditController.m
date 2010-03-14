@@ -60,7 +60,6 @@
   // When the view first loads, display the placeholder text that's in the
   // text field in the label.
   //label.text = textField.placeholder;
- 
   }
 */
 /*
